@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-image: url("{% static 'images/image2.PNG' %}");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="h-screen bg-gray-100 flex items-center justify-center">
+
+    <!-- Titre du système centré -->
+    <div class="text-center absolute top-10 left-1/2 transform -translate-x-1/2">
+        <p class="text-2xl font-bold animate-bounce mb-4">System Prediction Diabetes</p>
+    </div>
+
+    <!-- Formulaire centré dans une table -->
+    <div class="flex justify-center items-center mt-12">
+        <form action="result" method="POST" class="bg-white p-4 rounded-lg shadow-lg w-full max-w-md">
+            <!-- Inclusion du token CSRF -->
+            {% csrf_token %}
+            <table class="min-w-full table-auto">
+                <thead>
+                    <tr>
+                        <th class="border px-2 py-1 text-sm">Field</th>
+                        <th class="border px-2 py-1 text-sm">Input</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border px-2 py-1">Pregnancies</td>
+                        <td class="border px-2 py-1"><input type="number" name="pregnancies" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Glucose</td>
+                        <td class="border px-2 py-1"><input type="number" name="glucose" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Blood Pressure</td>
+                        <td class="border px-2 py-1"><input type="number" name="blood_pressure" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Skin Thickness</td>
+                        <td class="border px-2 py-1"><input type="number" name="skin_thickness" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Insulin</td>
+                        <td class="border px-2 py-1"><input type="number" name="insulin" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">BMI</td>
+                        <td class="border px-2 py-1"><input type="number" name="bmi" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Diabetes Pedigree Function</td>
+                        <td class="border px-2 py-1"><input type="number" name="diabetes_pedigree_function" step="0.01" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                    <tr>
+                        <td class="border px-2 py-1">Age</td>
+                        <td class="border px-2 py-1"><input type="number" name="age" class="w-full px-2 py-1 border rounded-md text-sm" required></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="mt-4">
+                <input type="submit" value="Predict" class="bg-blue-500 text-white px-4 py-2 rounded-md w-full text-sm">
+            </div>
+
+            <!-- Résultat centré, en gras -->
+            <div class="text-center mt-6 font-bold text-lg">
+                <p>Result: {{ result2 }}</p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
+
