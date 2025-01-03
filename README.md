@@ -28,5 +28,8 @@ size Data : CSV with 768 rows
  Metric Test : Accurancy Validation : 80% Result
 
  **4 Realization Project Machine Learning: Health Website - Diabetes Management System**
+ 
  ![page_Home](https://github.com/user-attachments/assets/67763a11-060f-46d6-b641-9cd1e0ad0632)
+ ![page_Home](https://github.com/user-attachments/assets/67763a11-060f-46d6-b641-9cd1e0ad0632)
+
 
