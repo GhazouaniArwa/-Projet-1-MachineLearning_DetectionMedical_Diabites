@@ -30,6 +30,7 @@ size Data : CSV with 768 rows
  **4 Realization Project Machine Learning: Health Website - Diabetes Management System**
  
  ![page_Home](https://github.com/user-attachments/assets/67763a11-060f-46d6-b641-9cd1e0ad0632)
- ![page_Home](https://github.com/user-attachments/assets/67763a11-060f-46d6-b641-9cd1e0ad0632)
+
+![image](https://github.com/user-attachments/assets/3a9ecd74-9fc8-47ef-bf8f-b295e333a4d6)
 
 
