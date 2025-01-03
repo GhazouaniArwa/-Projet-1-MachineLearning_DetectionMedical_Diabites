@@ -17,8 +17,11 @@ Backend Framework: Django
 Frontend: HTML, Tailwind CSS
 Database: SQLite
 Libraries: Pandas, NumPy
-Algorithm: Logistic Regression
+Algorithm: Logistic Regression ( Supervised Algorithm)
 Validation Metric: Accuracy Score
-Data Source:
-
 Format: CSV (structured data for patient records and features).
+**Format File and size Data** : CSV with 768 rows
+
+ Target (Output) : binary classification ( 0 and 1 )
+ Features (Input) : numric Data
+ Metric Test : Accurancy Validation : 80% Result
