@@ -5,6 +5,8 @@ Health Care Focus: Developed a machine learning algorithm to predict diabetes ba
 Designed a user-friendly form for seamless user interaction.
 Integrated with an SQLite database for reliable data storage and retrieval.
 Conducted rigorous testing to ensure website accuracy and reliability.
+
+
 **2 Key Features**
 
 Machine learning-driven diabetes prediction using logistic regression.
