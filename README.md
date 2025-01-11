@@ -57,6 +57,8 @@ size Data : CSV with 768 rows
 
 **d) Result**
 
+
+
 ![image](https://github.com/user-attachments/assets/f1de11ba-ae44-4ff7-8821-aeec301f02ff)
 
 
