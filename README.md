@@ -1,6 +1,10 @@
 **Name Project Machine Learning :Diabetes System Website Project**
 
 
+![image](https://github.com/user-attachments/assets/36e7da83-e7d5-4d1a-abc0-2d3279f068cd)
+
+
+
 ![image](https://github.com/user-attachments/assets/807daa76-d335-40a6-8d27-00f3e6833ecc) 
 
 **1 Objectif** 
